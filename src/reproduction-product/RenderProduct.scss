@@ -1,0 +1,158 @@
+.main-container {
+  width: 1100px;
+  height: 1564px;
+  margin-top: 70px;
+  margin-left: 30px;
+  margin-bottom: 70px;
+}
+
+.navbar-2 {
+  width: 1100px;
+  height: 44px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.navbar-2-title {
+  width: 255px;
+  height: 44px;
+  font-family: sans-serif;
+  font-size: 40px;
+  line-height: 44px;
+  color: #2c2d35;
+  margin-left: 47px;
+  margin-top: 20px;
+}
+
+.navbar-2-menu {
+  width: 428px;
+  height: 43px;
+  justify-content: end;
+  margin-right: 95px;
+  ul {
+    gap: 7px;
+  }
+}
+.France {
+  width: 126px;
+  height: 43px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 20px;
+  background-color: #d4e8d9;
+  text-align: center;
+}
+.Germany {
+  width: 135px;
+  height: 43px;
+  padding: 10px, 20px, 10px, 20px;
+  border-radius: 20px;
+  background-color: #d4e8d9;
+  align-items: center;
+}
+.England {
+  width: 108px;
+  height: 43px;
+  padding: 10px, 20px, 10px, 20px;
+  border-radius: 20px;
+  background-color: #d4e8d9;
+  text-align: center;
+}
+.country {
+  width: 86px;
+  height: 23px;
+  margin-top: 10px;
+}
+.country-2 {
+  text-align: center;
+  height: 23px;
+}
+.country-3 {
+  text-align: center;
+  height: 23px;
+}
+.country-li {
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+.products-container {
+  width: 1300px;
+  height: 730px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 60px;
+  margin-left: 50px;
+  gap: 20px;
+}
+
+.product {
+  width: 350px;
+  height: 730px;
+  background-color: #e1ede6;
+}
+
+.items-data-image {
+  width: 310px;
+  height: 422px;
+  margin: 20px;
+}
+
+.flex-1-title {
+  height: 21px;
+  margin: 20px 178px 10px 20px;
+  font-family: "OR";
+  font-size: 18px;
+  line-height: 21.13px;
+  color: #86928b;
+}
+
+.flex-1-about {
+  width: 310px;
+  height: 35px;
+  font-family: "OR";
+  font-size: 30px;
+  line-height: 35.22px;
+  color: #2c2d35;
+  margin: 10px 20px 8px 20px;
+}
+
+.flex-1-text {
+  width: 310px;
+  height: 21px;
+  font-family: "OR";
+  font-size: 18px;
+  line-height: 21.13px;
+  color: #2c2d35;
+  margin: 8px 20px 30px 20px;
+}
+
+.flex-1-price {
+  width: 128px;
+  height: 28px;
+  font-family: "OR";
+  font-size: 24px;
+  line-height: 28.18px;
+  color: #598d66;
+  margin-right: 209px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.flex-1-button {
+  width: 310px;
+  height: 65px;
+  border: 1px solid#598D66;
+  margin-left: 20px;
+  font-family: sans-serif;
+  font-size: 20px;
+  line-height: 23.48px;
+  color: #598d66;
+  align-items: center;
+  cursor: pointer;
+  &:hover {
+    transition-duration: 1s;
+    transform: translate3d(5px, 5px, 5px);
+    background-color: rgb(14, 255, 223);
+  }
+}

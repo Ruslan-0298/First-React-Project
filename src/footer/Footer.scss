@@ -1,0 +1,77 @@
+.footer {
+  background-color: #e1ede6;
+}
+
+.footer-flex {
+  width: 1300px;
+  height: 168px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-tel {
+  margin-top: 35px;
+}
+.footer-logo {
+  margin-left: 165px;
+  padding: 23px 0px 110px 0px;
+}
+
+.tel {
+  font-family: "OR";
+  font-size: 20px;
+  line-height: 23.48px;
+  color: #2c2d35;
+}
+.tel-text {
+  font-family: "OR";
+  font-size: 18px;
+  line-height: 21.13px;
+  color: #86928b;
+}
+.footer-contacts {
+  width: 445px;
+  height: 122px;
+  display: flex;
+  padding-top: 23px;
+  padding-bottom: 23px;
+  gap: 30px ;
+}
+
+.titles-contacts {
+  font-family: "OR";
+  font-size: 20px;
+  line-height: 23.48px;
+  color: #2c2d35;
+}
+
+.Text-class {
+  font-family: "OR";
+  font-size: 18px;
+  line-height: 27px;
+  color: #86928b;
+  margin-top: 5px;
+}
+.log-text {
+  font-family: "OR";
+  font-size: 12px;
+  line-height: 14.4px;
+  color: #86928b;
+}
+.footer-rights {
+  width: 132px;
+  height: 68px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 23px;
+  padding-bottom: 77px;
+}
+
+.logos-texts {
+  margin-top: 10px;
+}
+.rights-logos {
+  width: 132px;
+  height: 24px;
+  display: flex;
+}

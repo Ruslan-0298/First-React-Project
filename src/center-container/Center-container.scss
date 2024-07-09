@@ -1,0 +1,69 @@
+.center-container {
+  width: 1300px;
+  height: 574px;
+  background-image: url("./pic_background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: -2px;
+}
+
+.center-container-title {
+  display: flex;
+  width: 521px;
+  height: 80px;
+  margin: 70px 754px 20px 165px;
+  font-family: "OR";
+  font-size: 40px;
+  line-height: 40px;
+  color: #f4f6f5;
+}
+
+.center-container-svg {
+  margin-right: 20px;
+}
+
+.center-container-text {
+  width: 540px;
+  height: 209px;
+  font-family: "OR";
+  font-size: 18px;
+  line-height: 27px;
+  color: #ffffff;
+  margin-top: 20px;
+  margin-right: 735px;
+  margin-bottom: 60px;
+  margin-left: 165px;
+}
+
+.center-container-button {
+  width: 257px;
+  height: 65px;
+  background-color: #eedb6d;
+  position: relative;
+  left: 170px;
+   &:hover {
+    cursor: pointer;
+    transition-duration: 1s;
+    transform: translate3d(5px, 5px, 5px);
+    background-color: rgb(242, 255, 67);
+    border-radius: 10px;
+    
+  }
+}
+
+.container-flex-column {
+  position: relative;
+  width: 1318px;
+  display: flex;
+  flex-direction: column;
+}
+.center-container-button-text {
+  width: 137px;
+  height: 23px;
+  color: #2c2d35;
+  font-family: "OR";
+  font-size: 20px;
+  line-height: 23.48px;
+  padding-top: 20px;
+  padding-left: 69px;
+}
